@@ -3,6 +3,7 @@ from perceptron import Perceptron
 
 class PerceptronTest(unittest.TestCase):
 
+
     def setUp(self):
         self.and_network = Perceptron(2, 0.5)
         self.or_network = Perceptron(2, 0.5)
@@ -47,7 +48,6 @@ class PerceptronTest(unittest.TestCase):
         self.assertEqual(self.or_network.run([0, 1]), 1)
         self.assertEqual(self.or_network.run([1, 0]), 1)
         self.assertEqual(self.or_network.run([1, 1]), 1)
-
 
 
     def tearDown(self):

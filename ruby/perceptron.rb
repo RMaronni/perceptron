@@ -1,5 +1,6 @@
 class Perceptron
 
+
 	def initialize(input_number, activation_threshold)
 		@input_number = input_number
 		@weight_array = Array.new(input_number, 0)

@@ -13,8 +13,10 @@ class Perceptron:
     def get_input_number(self):
         return self.input_number
 
+
     def get_activation_threshold(self):
         return self.activation_threshold
+
 
     def get_weight_array(self):
         return self.weight_array
@@ -53,6 +55,3 @@ class Perceptron:
             return 0
         else:
             return 1
-
-
-

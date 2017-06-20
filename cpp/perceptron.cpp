@@ -1,5 +1,6 @@
 #include "perceptron.h"
 
+
 Perceptron::Perceptron(int input_number, double activation_threshold)
 {
 	this->input_number = input_number;
@@ -60,6 +61,7 @@ void Perceptron::train(vector<double> input_array, int expected_output)
 		}
 	}
 }
+
 
 int Perceptron::activation_function(double value)
 {

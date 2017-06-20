@@ -92,9 +92,4 @@ public class PerceptronTest {
         assertEquals(this.orNetwork.run(input3), 1);
         assertEquals(this.orNetwork.run(input4), 1);
     }
-
-
-
-
-    
 }

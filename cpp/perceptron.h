@@ -28,8 +28,6 @@ public:
 
 	int run(vector<double> input_array);
 	void train(vector<double> input_array, int expected_output);
-	
-
 };
 
 #endif
